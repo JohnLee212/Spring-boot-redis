@@ -1,0 +1,12 @@
+mylog:
+  exclude: test
+server:
+  port: 8088
+
+spring:
+  redis:
+    host: 47.114.94.33
+    password: qingshi@123
+    redisson:
+#       配置单点模式
+      config: classpath:redisson-single-dev.yml
